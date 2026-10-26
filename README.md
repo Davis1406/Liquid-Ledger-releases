@@ -23,7 +23,7 @@ expenses, and keep track of what you owe, all stored privately on your phone.
 ## Install
 
 1. Download the APK that matches your phone. Most phones need
-   **`liquid-ledger-1.0.0-arm64-v8a.apk`**.
+   **`liquid-ledger-<version>-arm64-v8a.apk`**.
    (`armeabi-v7a` is for older 32-bit phones, `x86_64` for emulators.)
 2. Open the file. If Android asks, allow your browser or file manager to
    **install unknown apps**.
@@ -47,7 +47,7 @@ Requires **Android 7.0 or newer**.
 Compare the file's SHA-256 with `SHA256SUMS.txt`:
 
 ```
-shasum -a 256 liquid-ledger-1.0.0-arm64-v8a.apk
+shasum -a 256 liquid-ledger-<version>-arm64-v8a.apk
 ```
 
 The APKs are signed with this certificate (SHA-256):
